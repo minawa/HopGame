@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		390FFEC11DC07163004271DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 390FFEC01DC07163004271DF /* AppDelegate.m */; };
+		390FFEC41DC07163004271DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 390FFEC31DC07163004271DF /* main.m */; };
+		390FFEC71DC07163004271DF /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 390FFEC61DC07163004271DF /* GameScene.m */; };
+		390FFEC91DC07163004271DF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 390FFEC81DC07163004271DF /* GameScene.sks */; };
+		390FFECE1DC07163004271DF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 390FFECC1DC07163004271DF /* MainMenu.xib */; };
+		390FFED91DC07163004271DF /* HopGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 390FFED81DC07163004271DF /* HopGameTests.m */; };
+		390FFEE41DC07163004271DF /* HopGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 390FFEE31DC07163004271DF /* HopGameUITests.m */; };
+		3963DBC31DC1A75400AC8113 /* WorldGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3963DBC21DC1A75400AC8113 /* WorldGenerator.m */; };
+		39AB2C161DC07B77006E835C /* MyHero.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AB2C151DC07B77006E835C /* MyHero.m */; };
+		39AD5BEC1DC3224200425B57 /* GameData.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AD5BEB1DC3224200425B57 /* GameData.m */; };
+		39E751201DC3B48B007ABC7F /* onJump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 39E7511F1DC3B48B007ABC7F /* onJump.wav */; };
+		39E751221DC3B4EB007ABC7F /* onGameOver.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 39E751211DC3B4EB007ABC7F /* onGameOver.mp3 */; };
+		39F4953F1DC1C5C4006199BB /* PointsLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F4953E1DC1C5C4006199BB /* PointsLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		390FFED51DC07163004271DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 390FFEB41DC07163004271DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 390FFEBB1DC07163004271DF;
+			remoteInfo = HopGame;
+		};
+		390FFEE01DC07163004271DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 390FFEB41DC07163004271DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 390FFEBB1DC07163004271DF;
+			remoteInfo = HopGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		390FFEBC1DC07163004271DF /* HopGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HopGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		390FFEBF1DC07163004271DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		390FFEC01DC07163004271DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		390FFEC31DC07163004271DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		390FFEC51DC07163004271DF /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		390FFEC61DC07163004271DF /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		390FFEC81DC07163004271DF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		390FFECD1DC07163004271DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		390FFECF1DC07163004271DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		390FFED41DC07163004271DF /* HopGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HopGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		390FFED81DC07163004271DF /* HopGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HopGameTests.m; sourceTree = "<group>"; };
+		390FFEDA1DC07163004271DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		390FFEDF1DC07163004271DF /* HopGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HopGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		390FFEE31DC07163004271DF /* HopGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HopGameUITests.m; sourceTree = "<group>"; };
+		390FFEE51DC07163004271DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3963DBC11DC1A75400AC8113 /* WorldGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldGenerator.h; sourceTree = "<group>"; };
+		3963DBC21DC1A75400AC8113 /* WorldGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldGenerator.m; sourceTree = "<group>"; };
+		39AB2C141DC07B77006E835C /* MyHero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHero.h; sourceTree = "<group>"; };
+		39AB2C151DC07B77006E835C /* MyHero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHero.m; sourceTree = "<group>"; };
+		39AD5BEA1DC3224200425B57 /* GameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameData.h; sourceTree = "<group>"; };
+		39AD5BEB1DC3224200425B57 /* GameData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameData.m; sourceTree = "<group>"; };
+		39E7511F1DC3B48B007ABC7F /* onJump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = onJump.wav; path = sounds/onJump.wav; sourceTree = "<group>"; };
+		39E751211DC3B4EB007ABC7F /* onGameOver.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = onGameOver.mp3; path = sounds/onGameOver.mp3; sourceTree = "<group>"; };
+		39F4953D1DC1C5C4006199BB /* PointsLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointsLabel.h; sourceTree = "<group>"; };
+		39F4953E1DC1C5C4006199BB /* PointsLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointsLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		390FFEB91DC07163004271DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390FFED11DC07163004271DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390FFEDC1DC07163004271DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		390FFEB31DC07163004271DF = {
+			isa = PBXGroup;
+			children = (
+				390FFEBE1DC07163004271DF /* HopGame */,
+				390FFED71DC07163004271DF /* HopGameTests */,
+				390FFEE21DC07163004271DF /* HopGameUITests */,
+				390FFEBD1DC07163004271DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		390FFEBD1DC07163004271DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				390FFEBC1DC07163004271DF /* HopGame.app */,
+				390FFED41DC07163004271DF /* HopGameTests.xctest */,
+				390FFEDF1DC07163004271DF /* HopGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		390FFEBE1DC07163004271DF /* HopGame */ = {
+			isa = PBXGroup;
+			children = (
+				390FFEBF1DC07163004271DF /* AppDelegate.h */,
+				390FFEC01DC07163004271DF /* AppDelegate.m */,
+				390FFEC51DC07163004271DF /* GameScene.h */,
+				390FFEC61DC07163004271DF /* GameScene.m */,
+				3963DBC11DC1A75400AC8113 /* WorldGenerator.h */,
+				3963DBC21DC1A75400AC8113 /* WorldGenerator.m */,
+				39AB2C141DC07B77006E835C /* MyHero.h */,
+				39AB2C151DC07B77006E835C /* MyHero.m */,
+				39F4953D1DC1C5C4006199BB /* PointsLabel.h */,
+				39F4953E1DC1C5C4006199BB /* PointsLabel.m */,
+				39AD5BEA1DC3224200425B57 /* GameData.h */,
+				39AD5BEB1DC3224200425B57 /* GameData.m */,
+				39E7511F1DC3B48B007ABC7F /* onJump.wav */,
+				39E751211DC3B4EB007ABC7F /* onGameOver.mp3 */,
+				390FFEC81DC07163004271DF /* GameScene.sks */,
+				390FFECC1DC07163004271DF /* MainMenu.xib */,
+				390FFECF1DC07163004271DF /* Info.plist */,
+				390FFEC21DC07163004271DF /* Supporting Files */,
+			);
+			path = HopGame;
+			sourceTree = "<group>";
+		};
+		390FFEC21DC07163004271DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				390FFEC31DC07163004271DF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		390FFED71DC07163004271DF /* HopGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				390FFED81DC07163004271DF /* HopGameTests.m */,
+				390FFEDA1DC07163004271DF /* Info.plist */,
+			);
+			path = HopGameTests;
+			sourceTree = "<group>";
+		};
+		390FFEE21DC07163004271DF /* HopGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				390FFEE31DC07163004271DF /* HopGameUITests.m */,
+				390FFEE51DC07163004271DF /* Info.plist */,
+			);
+			path = HopGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		390FFEBB1DC07163004271DF /* HopGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 390FFEE81DC07163004271DF /* Build configuration list for PBXNativeTarget "HopGame" */;
+			buildPhases = (
+				390FFEB81DC07163004271DF /* Sources */,
+				390FFEB91DC07163004271DF /* Frameworks */,
+				390FFEBA1DC07163004271DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HopGame;
+			productName = HopGame;
+			productReference = 390FFEBC1DC07163004271DF /* HopGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		390FFED31DC07163004271DF /* HopGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 390FFEEB1DC07163004271DF /* Build configuration list for PBXNativeTarget "HopGameTests" */;
+			buildPhases = (
+				390FFED01DC07163004271DF /* Sources */,
+				390FFED11DC07163004271DF /* Frameworks */,
+				390FFED21DC07163004271DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				390FFED61DC07163004271DF /* PBXTargetDependency */,
+			);
+			name = HopGameTests;
+			productName = HopGameTests;
+			productReference = 390FFED41DC07163004271DF /* HopGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		390FFEDE1DC07163004271DF /* HopGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 390FFEEE1DC07163004271DF /* Build configuration list for PBXNativeTarget "HopGameUITests" */;
+			buildPhases = (
+				390FFEDB1DC07163004271DF /* Sources */,
+				390FFEDC1DC07163004271DF /* Frameworks */,
+				390FFEDD1DC07163004271DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				390FFEE11DC07163004271DF /* PBXTargetDependency */,
+			);
+			name = HopGameUITests;
+			productName = HopGameUITests;
+			productReference = 390FFEDF1DC07163004271DF /* HopGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		390FFEB41DC07163004271DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Mina;
+				TargetAttributes = {
+					390FFEBB1DC07163004271DF = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					390FFED31DC07163004271DF = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 390FFEBB1DC07163004271DF;
+					};
+					390FFEDE1DC07163004271DF = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 390FFEBB1DC07163004271DF;
+					};
+				};
+			};
+			buildConfigurationList = 390FFEB71DC07163004271DF /* Build configuration list for PBXProject "HopGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 390FFEB31DC07163004271DF;
+			productRefGroup = 390FFEBD1DC07163004271DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				390FFEBB1DC07163004271DF /* HopGame */,
+				390FFED31DC07163004271DF /* HopGameTests */,
+				390FFEDE1DC07163004271DF /* HopGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		390FFEBA1DC07163004271DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39E751221DC3B4EB007ABC7F /* onGameOver.mp3 in Resources */,
+				390FFEC91DC07163004271DF /* GameScene.sks in Resources */,
+				390FFECE1DC07163004271DF /* MainMenu.xib in Resources */,
+				39E751201DC3B48B007ABC7F /* onJump.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390FFED21DC07163004271DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390FFEDD1DC07163004271DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		390FFEB81DC07163004271DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				390FFEC41DC07163004271DF /* main.m in Sources */,
+				39F4953F1DC1C5C4006199BB /* PointsLabel.m in Sources */,
+				390FFEC71DC07163004271DF /* GameScene.m in Sources */,
+				390FFEC11DC07163004271DF /* AppDelegate.m in Sources */,
+				3963DBC31DC1A75400AC8113 /* WorldGenerator.m in Sources */,
+				39AD5BEC1DC3224200425B57 /* GameData.m in Sources */,
+				39AB2C161DC07B77006E835C /* MyHero.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390FFED01DC07163004271DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				390FFED91DC07163004271DF /* HopGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390FFEDB1DC07163004271DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				390FFEE41DC07163004271DF /* HopGameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		390FFED61DC07163004271DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 390FFEBB1DC07163004271DF /* HopGame */;
+			targetProxy = 390FFED51DC07163004271DF /* PBXContainerItemProxy */;
+		};
+		390FFEE11DC07163004271DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 390FFEBB1DC07163004271DF /* HopGame */;
+			targetProxy = 390FFEE01DC07163004271DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		390FFECC1DC07163004271DF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				390FFECD1DC07163004271DF /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		390FFEE61DC07163004271DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		390FFEE71DC07163004271DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		390FFEE91DC07163004271DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HopGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mina.HopGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		390FFEEA1DC07163004271DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HopGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mina.HopGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		390FFEEC1DC07163004271DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HopGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mincom.mina.HopGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HopGame.app/Contents/MacOS/HopGame";
+			};
+			name = Debug;
+		};
+		390FFEED1DC07163004271DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HopGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mincom.mina.HopGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HopGame.app/Contents/MacOS/HopGame";
+			};
+			name = Release;
+		};
+		390FFEEF1DC07163004271DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HopGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mincom.mina.HopGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HopGame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		390FFEF01DC07163004271DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HopGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mincom.mina.HopGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HopGame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		390FFEB71DC07163004271DF /* Build configuration list for PBXProject "HopGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				390FFEE61DC07163004271DF /* Debug */,
+				390FFEE71DC07163004271DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		390FFEE81DC07163004271DF /* Build configuration list for PBXNativeTarget "HopGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				390FFEE91DC07163004271DF /* Debug */,
+				390FFEEA1DC07163004271DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		390FFEEB1DC07163004271DF /* Build configuration list for PBXNativeTarget "HopGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				390FFEEC1DC07163004271DF /* Debug */,
+				390FFEED1DC07163004271DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		390FFEEE1DC07163004271DF /* Build configuration list for PBXNativeTarget "HopGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				390FFEEF1DC07163004271DF /* Debug */,
+				390FFEF01DC07163004271DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 390FFEB41DC07163004271DF /* Project object */;
+}
